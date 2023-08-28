@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/ToddLGarrison/typescriptExpress#readme",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "concurrently": "^8.2.1",
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.2",
     "nodemon": "^3.0.1"
   }
 }
