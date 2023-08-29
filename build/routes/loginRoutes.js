@@ -25,6 +25,6 @@ router.post('/login', (req, res) => {
         res.send(email.toUpperCase());
     }
     else {
-        res.send('You must provide an email property.');
+        res.send('Must provide a valid email');
     }
 });
