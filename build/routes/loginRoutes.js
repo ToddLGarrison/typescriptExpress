@@ -21,5 +21,5 @@ router.get('/login', (req, res) => {
 });
 router.post('/login', (req, res) => {
     const { email, password } = req.body;
-    res.send(email + password);
+    res.send(email.toUpperCase());
 });
